@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+unpackage/
+bin-debug/
+bin-release/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uni-app specific
+.sourcemap/
+*.zip
+
+# ESLint cache
+.eslintcache

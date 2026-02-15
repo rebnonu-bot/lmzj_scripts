@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "{{projectName}}",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#f3f3f3"
+  },
+  "easycom": {
+    "custom": {
+      "^t-(.*)": "@tdesign/uniapp/$1/$1.vue"
+    }
+  }
+}
